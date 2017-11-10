@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  <url> 
+		<loc>http://www.titletowntx.com/</loc>
+		<changefreq>weekly</changefreq>
+		<priority>
+		    1.0
+		</priority>
+  </url>
+  <url> 
+		<loc>
+		  http://www.titletowntx.com/?play=AxV4pg6C
+		</loc>   
+		<video:video>
+			<video:content_loc>
+			http://content.jwplatform.com/videos/AxV4pg6C-CfRakNLB.mp4
+			</video:content_loc>
+			<video:thumbnail_loc>
+			http://content.jwplatform.com/thumbs/AxV4pg6C-720.jpg
+			</video:thumbnail_loc>
+			<video:title>The Aledo Way</video:title>  
+			<video:description>
+			In a small town with huge expectations, players and coaches embrace the pressure to reclaim what was once theirs: State!
+			</video:description>
+			<video:duration>347</video:duration>
+			<video:rating>5</video:rating>
+			<video:family_friendly>yes</video:family_friendly>
+			<video:gallery_loc title="Title Town Tx">
+			http://titletowntx.com
+			</video:gallery_loc>    
+			<video:live>no</video:live>    
+		</video:video>
+  </url>
+  <url> 
+		<loc>
+		  http://www.titletowntx.com/?play=2W4IJEam
+		</loc>   
+		<video:video>
+			<video:content_loc>
+			http://content.jwplatform.com/videos/2W4IJEam-CfRakNLB.mp4
+			</video:content_loc>
+			<video:thumbnail_loc>
+			http://content.jwplatform.com/thumbs/2W4IJEam-720.jpg
+			</video:thumbnail_loc>
+			<video:title>Titletown, TX: Official trailer</video:title>  
+			<video:description>
+			Follow the ultimate Texas high school football journey as the Aledo Bearcats chase their sixth state title in eight years
+			</video:description>
+			<video:duration>98</video:duration>
+			<video:rating>5</video:rating>
+			<video:family_friendly>yes</video:family_friendly>
+			<video:gallery_loc title="Title Town Tx">
+			http://www.titletowntx.com
+			</video:gallery_loc>    
+			<video:live>no</video:live>    
+		</video:video>
+  </url>
+</urlset>

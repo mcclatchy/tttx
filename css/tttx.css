@@ -1,0 +1,269 @@
+	
+	
+/* Fonts
+-----------------------------------------------*/
+@font-face {
+    font-family: "McClatchy Sans Cond";
+    font-style: normal;
+    font-weight: 600;
+    src: url("http://www.star-telegram.com/static/mcclatchy-sans-condensed/McClatchySansCond-Semibold.woff") format("woff"); }
+    
+@font-face {
+    font-family: "McClatchy Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url("http://www.star-telegram.com/static/fonts/mcclatchy-sans/McClatchySans-Regular.woff") format("woff"); }
+    
+@font-face {
+    font-family: "McClatchy Sans";
+    font-style: normal;
+    font-weight: 500;
+    src: url("http://www.star-telegram.com/static/fonts/mcclatchy-sans/McClatchySans-Semibold.woff") format("woff"); }
+    
+@font-face {
+    font-family: "Lyon";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Lyon Regular"), local("Lyon-Regular"), url("http://www.star-telegram.com/static/fonts/lyon/LyonTextWeb-Regular.woff") format("woff"); }
+    
+@font-face {
+    font-family: "McClatchy Sans Cond";
+    font-style: normal;
+    font-weight: 600;
+    src: url("http://www.star-telegram.com/static/fonts/mcclatchy-sans-condensed/McClatchySansCond-Semibold.woff") format("woff"); }
+    
+@font-face {
+    font-family: "McClatchy Slab";
+    font-style: normal;
+    font-weight: 400;
+    src: url("http://www.star-telegram.com/static/fonts/mcclatchy-slab/McClatchySlab-Regular.woff") format("woff"); }
+    
+@font-face {
+    font-family: "McClatchy Slab";
+    font-style: normal;
+    font-weight: 600;
+    src: url("http://www.star-telegram.com/static/fonts/mcclatchy-slab/McClatchySlab-Semibold.woff") format("woff"); }
+
+
+
+	
+/* Small devices (0px - 768px) */
+@media (min-width: 0px) { 
+
+		.star-tel{
+		width:33%;	
+		}
+
+		#episode-info{
+		top:-50px;
+			/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0+1,0+1,1+75,1+98 */
+		background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 30%, rgba(0,0,0,1) 98%, rgba(0,0,0,1) 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 30%,rgba(0,0,0,1) 98%,rgba(0,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 30%,rgba(0,0,0,1) 98%,rgba(0,0,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+		}
+		
+		#cur_title{
+			font:normal 4rem  "McClatchy Sans Cond", Arial, sans-serif;
+		}
+		
+		::-webkit-scrollbar { 
+		display: none; 
+		}
+	
+	}
+	
+/* Medium and Large devices (768px and up) */
+@media (min-width: 768px) { 
+		
+		.star-tel{
+		width:25%;	
+		}
+		
+		#episode-info{
+		top:-100px;
+				/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0+1,0+1,1+100,1+100 */
+		background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 1%, rgba(0,0,0,1) 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 1%,rgba(0,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 1%,rgba(0,0,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=0 ); 
+		}
+		
+		#cur_title{
+			font:normal 5.2rem  "McClatchy Sans Cond", Arial, sans-serif;
+		}
+		
+		::-webkit-scrollbar {
+		  display: block;
+		  width: 10px;
+		  height: 10px;
+		}
+		::-webkit-scrollbar-button {
+		  width: 0px;
+		  height: 0px;
+		}
+		::-webkit-scrollbar-thumb:horizontal {
+		  background: #ffcf28;
+		  border: 0px none #ffffff;
+		  border-radius: 50px;
+		}
+		::-webkit-scrollbar-thumb:hover:horizontal {
+		  background: #e6d200;
+		}
+		::-webkit-scrollbar-thumb:active:horizontal {
+		  background: #fff166;
+		}
+		::-webkit-scrollbar-track:horizontal {
+		  background: #000000;
+		  border: 1px solid #000000;
+		  border-radius: 16px;
+		}
+		::-webkit-scrollbar-track:horizontal:hover {
+		  background: #666666;
+		}
+		::-webkit-scrollbar-track:horizontal:active {
+		  background: #333333;
+		}
+		::-webkit-scrollbar-corner:horizontal {
+		  background: transparent;
+		}
+	
+		 
+	 }
+
+
+    body {
+        background: #000;
+        font-family: "McClatchy Sans Cond", Arial, sans-serif;
+    }
+
+
+    .hero{
+	    width:75%;
+		transition: width .5s ease-in-out;
+		-moz-transition: width .5s ease-in-out;
+		-webkit-transition: width .5s ease-in-out;	    
+    }    
+    .smaller_hero{
+	    width:33%;
+    }
+    
+	#episode-info{
+		z-index: 100;
+		position:relative;
+		transition: opacity 1s ease-in-out;
+		-moz-transition: opacity 1s ease-in-out;
+		-webkit-transition: opacity 1s ease-in-out;
+		pointer-events: none;  //NOTE THIS DOES NOT WORK IN IE8
+	}
+	
+	.fadeOut{
+		opacity: 0;
+	}
+
+	#cur_ep_num{
+		color:#ffcf28;
+		font-family: "McClatchy Sans Cond", Arial, sans-serif;
+		font-size: 1.7rem;
+		font-weight:800;
+		text-align:center;
+	}
+
+	#cur_title{
+		color:#fff;
+		text-transform:uppercase;
+		text-align:center;
+	}
+
+	#cur_desc{
+		color:#fff;
+		font:1.8rem "McClatchy Sans Cond" , Arial, sans-serif;	
+		text-align:center;
+		padding-left:10%;
+		padding-right:10%;	
+	}
+
+    .episode-item {
+             text-align: center;
+    }
+    
+    .ep_link:hover{
+	    text-decoration: none;
+    }
+
+    .episode-number {
+	    font-family: "McClatchy Sans Cond", Arial, sans-serif;
+        display: block;
+        color: #ffcf28;
+        font-size:1.7rem;
+        font-weight: 800;
+        margin-top: 30px;
+    }
+
+
+	#tt-playlist-items:after{
+		content:' ';
+		position:absolute;
+		background:linear-gradient(
+		to left,
+		rgba(0,255,0,0),
+		rgba(0,255,0,0.95) 50%
+	  );
+	  z-index:1;
+	}
+
+    .episode-item img {
+        border: 2px solid #555;
+        margin-top: 5px;
+    }
+
+    .episode-item.active img {
+        border: 2px solid #ffcf28;
+    }
+
+    .episode-item h3 {
+        font: normal 2.3rem/2.5rem "McClatchy Sans Cond", Arial, sans-serif;
+        text-transform: uppercase;
+        color: #fff;
+    }
+
+    h2{
+        font: normal 2rem/2rem "McClatchy Sans Cond", Arial, sans-serif;
+        text-transform: uppercase;
+        text-align: center;
+        color: #ffcf28;
+        padding-top: 30px;
+        padding-bottom: 10px;
+        margin-bottom: 0px;
+    }
+    
+    h3{
+		color:#fff;
+		font:1.8rem "McClatchy Sans Cond" , Arial, sans-serif;	
+		text-align:center;
+		padding-left:10%;
+		padding-right:10%;
+		margin-top: 10px;	
+	}
+
+    
+    .button{
+	    width:50px;
+	    margin:8px;
+	    cursor: pointer;
+    }
+
+	.hide_me{
+	display: none;
+	}
+	
+	#tt-playlist-items{
+	margin-top:-50px;
+	transition:opacity .5s;	
+	}
+	
+	.dim_for_ad{
+	opacity:0.3;
+	pointer-events: none;	
+	}
+
